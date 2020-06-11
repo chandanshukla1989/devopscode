@@ -12,7 +12,7 @@ chmod 400 /home/shukla_chandan64/gitpush/keyfiles/privatekey.pem
 ssh -o "StrictHostKeyChecking=no" -i /home/shukla_chandan64/gitpush/keyfiles/privatekey.pem adhoc-vm "echo Adding Keys in Host"
 
 #########################prepare hostlist for ansible
-echo -e "[adhoc-vm]\nadhoc-vm ansible_ssh_private_key_file=/home/shukla_chandan64/gitpush/keyfiles/privatekey.pem\n[runner-vm]\nrunner-vm ansible_ssh_private_key_file=/home/shukla_chandan64/gitpush/keyfiles/privatekey.pem" > /home/shukla_chandan64/gitpush/ansible_playbooks/ansible_host
+#echo -e "[adhoc-vm]\nadhoc-vm ansible_ssh_private_key_file=/home/shukla_chandan64/gitpush/keyfiles/privatekey.pem\n[runner-vm]\nrunner-vm ansible_ssh_private_key_file=/home/shukla_chandan64/gitpush/keyfiles/privatekey.pem" > /home/shukla_chandan64/gitpush/ansible_playbooks/ansible_host
 cat /etc/hosts
 cat /home/shukla_chandan64/gitpush/ansible_playbooks/ansible_host
 sleep 10s
