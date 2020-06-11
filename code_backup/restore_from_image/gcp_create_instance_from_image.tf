@@ -1,5 +1,5 @@
 provider "google" {
- credentials = file("account.json")
+ credentials = file("/home/shukla_chandan64/gitpush/account.json")
  project     = "imperial-legacy-232115"
  zone      = "us-west1-a"
 }
