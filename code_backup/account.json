@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "imperial-legacy-232115",
+  "private_key_id": "84d3053f20192999bb909f4f425865c69e6e9b60",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDGLz/dGApRsaZX\nRtMIM934eBDGsKcEDOvHlGIFDhUmRLl5wP3hGLtwkU7HvGkMjLxHTtzkCTaEcIYC\notnXz/KofjkOSnu+AGQ1h6xKzs12F7UfF++WOQNZFrPzbCsnpoL4iLszgkH8Y2gb\nLuAXcPEFOqpIie/gTyZnjVg81SlyejR+w+cy+DkDCxNrsYPyl9izey5sAtTVXmbI\nvMAMDGRKTZ+VRIvH5I/jDy7whZ5jjmvUw5RI9lfqMLSofxwHGjpMd64yK3ovCaug\nZoeN5s/yEoMxngDRKmRglC70g8Gtr/f5QNFpd3A/x5n+g+bV9NgizDuAwxmUoEbS\nd7HS3cX9AgMBAAECggEACPiPtO4Uy8i+kNerBmDiqn19/g4tBc2hEg2xJZslTMuX\nBk3hQmbpoJlliYWbzyVVb1PAjIn4ghI5TGytk7lK3mLM4KhxUzeWdjlH+mnDw7ok\nJHB1ynvfVhFTBIxgEf8etgVYKIvgnevQ4JWNwh1Phxp/SjQoziNifoKg2CuF/HzN\nayX4k+SkK6uYt0T28ftqu4Z1aCJJhOZs3t08L2vZsa1Bx77vDpxkh6AMfLcQ6MsS\nRUN3VZreNLK70xhI0Lo+mXRMB0Zo1Ny6D5bjvBVQheTZVGcShhaOoWmB9+IhmO3I\nQJRdi9Cb+V8iEbwD+t/RjLMmd1hxNsxnU68jw+sjuQKBgQD7HLZNjpg1BPSsAIve\nbJpOKHrH4DwQ/IHa2H9a2StZG3FxdzcYIR7alLd9cIxtE8Jc4XXXXDKWI8kS/5Ly\nZfyO4DbM568Y2jK486yi6aORMJDcggi7S+vpt0TjbIGVeBIvcmCNWyYL/2vOfm25\nH3RYVzFZI46bnGVipEeQTTjWMwKBgQDKCszN00N7xIMNjDznLHvQtKpe07Ll1+3s\njSoGJMwv9finrpi2NjeeIM2JsGLsiNPOnpW0pZD1ODVWjHwvKd0OSyMwnt6AKh/y\nn229oFm6ZgOasZ6V3zF/X417GGiDklnBRYKDmkytCWEk5qWgFnqxdNrwDfUN0796\nkpIDIP7jDwKBgF5hVEOiLKMA0dUz/14CA50Mqdkl9m2L+mJ+rJ9AsII1RlYXMKXp\nDOeqrax/+MemfY7bTqc7B+hWWuTBGkHxAxPQQciR68WzfQz2yRQSLGANmOTIGvAK\ngQi+0S2JQssi7fLXUmLOt2YbAjICYssJf3kUjH+sVZU3GwQQKrWZ0JrxAoGAAgp1\n4yZdKiTkBgECpHsojQUmK2sMBZJWzurmH8XDYkCj0F3NIRoPGcPPD7L+bNE9AntL\nm9WIT1HQCB3HK1rK5tgPdPBF4xmJ1ROTMjUqct2Q78EXjwAAKf83GKU4eQvDaFZh\naR7n41+S4aKKzcEsYBqEE6SwcwFOj9hnLSzqJjUCgYBxlSmjnMlExkEYwLkisYDR\nhmk+xZNmXqjBEe9WCIoXs0kN73H+sMcqS4dGzx7BqKOG9yOj99Mz8MryHkx8GFgP\n9zGNUJPrKN2a66PemSlCMlb8j0eXMU6OJS0j7EiwWP5dJLmOBG/ALuxYPmbutxwj\nhmjPYuXkLki3xxnR9/KH+w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "chandan@imperial-legacy-232115.iam.gserviceaccount.com",
+  "client_id": "109960638056569184680",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chandan%40imperial-legacy-232115.iam.gserviceaccount.com"
+}
+

@@ -1,0 +1,4 @@
+[adhoc-vm]
+adhoc-vm ansible_ssh_private_key_file=/home/shukla_chandan64/code/keyfiles/privatekey.pem
+[runner-vm]
+runner-vm ansible_ssh_private_key_file=/home/shukla_chandan64/code/keyfiles/privatekey.pem
