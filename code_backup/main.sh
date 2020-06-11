@@ -1,8 +1,8 @@
-terraform init
+terraform init /home/shukla_chandan64/gitpush
 gcloud -q compute images delete adhocvm-image --project=imperial-legacy-232115 
 gcloud -q compute instances delete adhoc-vm --project=imperial-legacy-232115 --zone=us-west1-a
 > /home/shukla_chandan64/gitpush/terraform.tfstate
-terraform apply -auto-approve
+terraform apply -auto-approve /home/shukla_chandan64/gitpush
 
 #########################prepare host for /etc/hosts file
 cat terraform.tfstate|grep network_ip|cut -d'"' -f4|awk '{print $1" adhoc-vm"}' > host_etc
