@@ -1,9 +1,0 @@
-- hosts: adhoc-vm
-  tasks:
-  - name: Installing NumPy python library using Ansible pip3 module
-    pip3:
-      name: NumPy
-    pip3:
-      name: Pandas
-    pip3:
-      name: matplotlib
