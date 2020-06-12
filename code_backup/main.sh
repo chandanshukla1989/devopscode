@@ -8,8 +8,8 @@ terraform apply -auto-approve /home/shukla_chandan64/gitpush
 cat terraform.tfstate|grep network_ip|cut -d'"' -f4|awk '{print $1" adhoc-vm"}' > host_etc
 sudo bash -c 'cat host_etc > /etc/hosts'
 ssh-keygen -f "/home/shukla_chandan64/.ssh/known_hosts" -R adhoc-vm
-chmod 400 /home/shukla_chandan64/gitpush/keyfiles/privatekey.pem
-ssh -o "StrictHostKeyChecking=no" -i /home/shukla_chandan64/gitpush/keyfiles/privatekey.pem adhoc-vm "echo Adding Keys in Host"
+chmod 400 /home/shukla_chandan64/keyfiles/privatekey.pem
+ssh -o "StrictHostKeyChecking=no" -i /home/shukla_chandan64/keyfiles/privatekey.pem adhoc-vm "echo Adding Keys in Host"
 
 #########################prepare hostlist for ansible
 #echo -e "[adhoc-vm]\nadhoc-vm ansible_ssh_private_key_file=/home/shukla_chandan64/gitpush/keyfiles/privatekey.pem\n[runner-vm]\nrunner-vm ansible_ssh_private_key_file=/home/shukla_chandan64/gitpush/keyfiles/privatekey.pem" > /home/shukla_chandan64/gitpush/ansible_playbooks/ansible_host
